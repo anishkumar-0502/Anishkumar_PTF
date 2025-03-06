@@ -15,13 +15,13 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
+  ExposisDL,
+  Outdid,
+  pinesphere,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
+  ionHive_banner,
+  Kg_Sym,
+  Ecom,
   threejs,
 } from "../assets";
 
@@ -42,20 +42,20 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Web Design & Development",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "scalable App solutions",
+    icon: creator,
+  },
+  {
+    title: "Quality Assurance",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Cloud Solutions",
     icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
   },
 ];
 
@@ -116,9 +116,24 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Software Developer",
+    company_name: "Outdid Unified Pvt Ltd",
+    icon: Outdid,
+    iconBg: "#383E56",
+    date: "Jan 2024 – Present",
+    points: [
+      "Developed and maintained backend services using Python and Django, ensuring robust and scalable software applications.",
+      "Designed and managed PostgreSQL databases for efficient data storage and retrieval, optimizing system performance.",
+      "Led and coordinated cross-functional teams, ensuring timely project delivery and seamless execution.",
+      "Collaborated with teams across different departments, effectively communicating technical concepts to various stakeholders.",
+      "Maintained source code in GitHub repositories, ensuring proper version control and code quality."
+    ],
+  },
+
+  {
     title: "Data Analyst",
     company_name: "Exposys Data Labs",
-    icon: starbucks,
+    icon: ExposisDL,
     iconBg: "#383E56",
     date: "May 2023 – June 2023",
     points: [
@@ -130,7 +145,7 @@ const experiences = [
   {
     title: "Full Stack Django Developer",
     company_name: "PineSphere Solution Pvt Ltd",
-    icon: tesla,
+    icon: pinesphere,
     iconBg: "#E6DEDD",
     date: "June 2023 – October 2023",
     points: [
@@ -144,7 +159,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "I develop tailored web and mobile applications using cutting-edge technologies, ensuring scalability, security, and long-term growth.",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
@@ -152,15 +167,23 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      " I prioritize seamless UI/UX, fast-loading applications, and SEO optimization to enhance user engagement and business success.",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
+  // {
+  //   testimonial:
+  //     "From concept to deployment, I handle the entire development lifecycle while providing ongoing support and maintenance.",
+  //   name: "Lisa Wang",
+  //   designation: "CTO",
+  //   company: "456 Enterprises",
+  //   image: "https://randomuser.me/api/portraits/women/6.jpg",
+  // },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      " By implementing all these strategies, you can expect a significant boost in efficiency, user engagement, and profitability, driving 10x growth for your product.",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
@@ -170,68 +193,70 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "EV Charging Application",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A comprehensive EV charging platform enabling users to locate nearby charging stations, check real-time availability, book slots, and make seamless payments. Integrated with live tracking, smart navigation, and user-friendly UI for an optimized charging experience.(Live on play store - ion Hive) #Outdid unified working in thz project currently",
     tags: [
       {
-        name: "react",
+        name: "Flutter",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "GetX",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Node JS",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: ionHive_banner,
+    source_code_link: "https://github.com/anishkumar-0502/ionHive_APP_PHASE_II.git",
+  },
+
+  {
+    name: "KG College Symposium",
+    description:
+      "An interactive web application designed for hosting and managing college symposiums, allowing students to register for events, access schedules, and receive real-time updates. Built with a responsive UI for a seamless user experience.(it is deployed in vercel - https://exotica2k23.vercel.app/ ) and traffic are managed through Google Search Console",
+    tags: [
+      {
+        name: "HTML 5",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Bootstrap",
+        color: "green-text-gradient",
+      },
+      {
+        name: "SCSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: Kg_Sym,
+    source_code_link: "https://github.com/anishkumar-0502/Symphosium.git",
   },
   {
-    name: "Job IT",
+    name: "E-Commerce Platform",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A dynamic and scalable e-commerce website built with Django, featuring product catalog management, secure payment integration, and an intuitive shopping experience. Implements PostgreSQL for efficient data handling and Jinja templates for seamless UI rendering. This application offers you the seemless interface with quick  respose",
     tags: [
       {
-        name: "react",
+        name: "Jinja Templates",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "PostgreSQL",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Django",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: Ecom,
+    source_code_link: "https://github.com/anishkumar-0502/EcommerceWebsite-using-Django-Bootstr-with-Payment-integration.git",
   },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-  },
+
 ];
 
 

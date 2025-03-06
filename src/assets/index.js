@@ -21,14 +21,14 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
+import ExposisDL from "./company/ExposisDL.png";
 import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import Outdid from "./company/outdid.png";
+import pinesphere from "./company/pinesphere.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import ionHive_banner from "./ionHive_banner.png";
+import Kg_Sym from "./Kg_Sym.png";
+import Ecom from "./Ecom.png";
 
 export {
   logo,
@@ -52,11 +52,13 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
+  pinesphere,
   shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  Outdid,
+  ExposisDL,
+  ionHive_banner,
+  Kg_Sym,
+  Ecom,
+
+
 };

@@ -47,12 +47,10 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in Python and
-        JavaScript, and expertise in frameworks like React,Three.js, Django and
-        Django Rest. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        Freelance Full Stack Developer with expertise in custom web & app development, scalable cloud solutions, and real-time data handling. Proficient in React, Node.js, Flutter, Django, and MongoDB, delivering high-performance applications tailored to business needs. Experienced in UI/UX, API integrations, automation, and SEO to create seamless, user-centric digital experiences. Successfully deployed multiple projects, including an EV application live on Play Store & App Store in India. Skilled in cloud platforms, WebSockets, and IoT to build innovative and efficient solutions.
+        <span className="block mt-2">🚀 Let’s turn ideas into reality with cutting-edge technology!</span>
       </motion.p>
+
 
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (

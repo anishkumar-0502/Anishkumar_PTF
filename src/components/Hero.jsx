@@ -13,16 +13,31 @@ const Hero = () => {
           <div className='w-5 h-5 rounded-full bg-[#915EFF]' />
           <div className='w-1 sm:h-80 h-40 violet-gradient' />
         </div>
-
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className='text-[#915EFF]'>Anishkumar A</span>
+            Hi, I'm
+            <a
+              href="www.linkedin.com/in/anishkumar-a-0a1520235"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#915EFF] hover:underline ml-1"
+            >
+              Anishkumar A
+            </a>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop 3D visuals, user <br className='sm:block hidden' />
-            interfaces and web applications
+            Passionate about building innovative solutions for real-world problems with a technical touch.
           </p>
+
+          <div className="mt-4 text-white-100">
+            <h2 className="text-lg font-semibold text-[#915EFF]">Expertised in</h2>
+            <ul className="mt-2 space-y-1">
+              <li> Custom Web & App Development  ||  User-Centric UI/UX  ||  Cloud & Scalable Solutions  ||  SEO & Digital Strategy  ||  Quality Assurance & Support</li>
+            </ul>
+          </div>
+
         </div>
+
       </div>
 
       <ComputersCanvas />

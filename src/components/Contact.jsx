@@ -76,8 +76,7 @@ const Contact = () => {
         <h3 className={styles.sectionHeadText}>Contact.</h3>
 
         <form
-          ref={formRef}
-          onSubmit={handleSubmit}
+          action="https://formcarry.com/s/mr4nrbqVt5R" method="post"
           className='mt-12 flex flex-col gap-8'
         >
           <label className='flex flex-col'>
