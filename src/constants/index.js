@@ -192,27 +192,27 @@ const testimonials = [
 ];
 
 const projects = [
-  {
-    name: "EV Charging Application",
-    description:
-      "A comprehensive EV charging platform enabling users to locate nearby charging stations, check real-time availability, book slots, and make seamless payments. Integrated with live tracking, smart navigation, and user-friendly UI for an optimized charging experience.(Live on play store - ion Hive) #Outdid unified working in thz project currently",
-    tags: [
-      {
-        name: "Flutter",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "GetX",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Node JS",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: ionHive_banner,
-    source_code_link: "https://github.com/anishkumar-0502/ionHive_APP_PHASE_II.git",
-  },
+  // {
+  //   name: "EV Charging Application",
+  //   description:
+  //     "A comprehensive EV charging platform enabling users to locate nearby charging stations, check real-time availability, book slots, and make seamless payments. Integrated with live tracking, smart navigation, and user-friendly UI for an optimized charging experience.(Live on play store - ion Hive) #Outdid unified working in thz project currently",
+  //   tags: [
+  //     {
+  //       name: "Flutter",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "GetX",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "Node JS",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: ionHive_banner,
+  //   source_code_link: "https://github.com/anishkumar-0502/ionHive_APP_PHASE_II.git",
+  // },
 
   {
     name: "KG College Symposium",
