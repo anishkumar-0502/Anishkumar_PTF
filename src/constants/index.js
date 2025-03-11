@@ -192,6 +192,7 @@ const testimonials = [
 ];
 
 const projects = [
+
   // {
   //   name: "EV Charging Application",
   //   description:
